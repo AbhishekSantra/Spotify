@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify | Home</title>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background: url('img/bg1.jpg');">
+    <nav>
+        <ul>
+            <li>
+                <img src="img/logo.jpg" alt="">
+            </li>
+            <li>
+                <a href="index.html" class="Active">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="login.html" id="l"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container" style="background: url('img/bg.jpg');">
+        <div class="songList">
+            <h1>
+                Mohammad Rafi: Top 10 Songs
+            </h1>
+            <div class="somgItemContainer">
+                <div class="songItem">
+                    <img src="img/1.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">03:15&nbsp;<i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="img/2.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">05:56&nbsp;<i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="img/3.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">04:30&nbsp;<i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="img/4.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">03:30&nbsp;<i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="img/5.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">04:30&nbsp;<i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="img/6.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">05:27&nbsp;<i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="img/7.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">03:00&nbsp;<i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="img/7.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">04:50&nbsp;<i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="img/9.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">06:57&nbsp;<i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="img/10.jpg">
+                    <span class="songName">Jo Wada Kiya</span>
+                    <span class="songlistplay"><span class="time">04:27&nbsp;<i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="/img/playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span>
+        </div>
+    </div>
+    <div class="text-center p-3 love">
+        © 2022 Copyright:
+        <p>Made with ❤️ by <b>Abhishek Santra</b></p>
+    </div>
+    <script src="https://kit.fontawesome.com/7cd52d6e02.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
